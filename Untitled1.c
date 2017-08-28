@@ -4,7 +4,7 @@
 int main()
 {
     double a, x;
-    scanf("%lf%lf",&a,&x);
+    scanf("%lf%lf",&a,&x); /*base of log a and operand value x  */
     double b=0.0001, c;
     while (c!=x)
     {
@@ -14,6 +14,6 @@ int main()
         if (c>x)
             break;
     }
-    printf("%0.2lf\n",b);
+    printf("%0.2lf\n",b); /* The logaritm value of x based on a */
     return 0;
 }
